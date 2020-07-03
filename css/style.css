@@ -1,0 +1,270 @@
+* {margin:0; padding:0;}
+
+body {background:url(../images/bg.jpg);
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#666;
+			
+}
+.container {
+			margin:auto;
+			width:935px;
+			margin: 0 auto 0 auto;
+			-moz-border-radius:15px;
+			-webkit-border-radius: 15px;
+			border-radius: 15px;
+			position: relative;
+}
+
+
+/*HEADER*/
+header {
+		height:66px;
+		padding: 30px 0 30 0;
+		overflow:hidden;
+	}
+	
+.headerLeft {
+	float:left;
+	width: 212px;
+}
+
+.headerRight{
+	left: 500px;
+	position: absolute;
+	float:Right;
+	width:400px;
+}
+
+.headerRight .loginLeft{
+	float: left;
+	margin-right: 5px;
+}
+
+.headerRight .loginLRight{
+	float: right;
+
+}
+input {
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px #666;
+}
+
+/*MENU*/
+
+menu {
+	-webkit-border-radius: 15px 15px 0 0;
+	border-radius: 15px 15px 0 0;
+	overflow: hidden;
+}
+
+menu ul {
+	list-style:none;
+}
+
+menu ul li {
+	float:left;
+	width: 20%;
+	height: 60px;
+	text-align: center;
+	background-color: #555;
+}
+
+menu ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;	
+	line-height: 60px;
+}
+
+menu a:hover {
+	background-color: #000;
+	color:#fff;
+	display: block;
+}
+
+.borderRadiusLeft {
+	-webkit-border-radius: 15px 0 0 0;
+	border-radius: 15px 0 0 0;
+}
+
+.borderRadiusLeft a:hover{
+	-webkit-border-radius: 15px 0 0 0;
+	border-radius: 15px 0 0 0;
+}
+
+.borderRadiusRight {
+	-webkit-border-radius: 0 15px 0 0;
+	border-radius: 0 15px 0 0;
+}
+
+.borderRadiusRight a:hover {
+	-webkit-border-radius: 0 15px 0 0;
+	border-radius: 0 15px 0 0;
+}
+.white { background-color: #fff !important; }
+.white a {color:#333 !important;}
+.white a:hover {color:#333 !important; background-color: #fff !important;}
+
+/*SILDER*/
+#content {}
+.sliderBorder {
+	width: 931px;
+	border: solid 2px #fff;
+	-webkit-border-radius: 0 0 15px 15px;
+	border-radius: 0 0 15px 15px;
+}
+
+.shadow {margin-top: -4px}
+
+.search {
+	float: right;
+	position:relative;
+	top: 3px;
+}
+
+
+/*ARTICLE*/
+
+article {
+	width: 950px;
+	margin: 50px 0;
+	overflow: hidden;
+
+}
+
+/*ARTICLE LEFT*/
+
+.articleLeft{
+	float:left;
+	width:550px;
+	border-right: 2px solid #ccc;
+	}
+
+.articleTop {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.topLeft {
+	float: left;
+	padding: 0 10px
+
+
+	}
+
+article img {
+	width: 100%;
+}
+
+.topRight {
+	float:right;
+	width: 290px;
+	text-align: left;
+	padding-right: 10px;
+	
+}
+
+.topRight h2 {
+	margin-bottom: 15px;
+}
+
+.articleBottom {
+	overflow: hidden;
+	padding: 0 10px;
+
+}
+
+.articleBottom ul {
+	width: 260px;
+	float: left;
+	padding-left: 5px;
+}
+
+.articleBottom ul li {
+	list-style: inside;
+	list-style-image:url(../images/marker1.png);
+	margin-bottom:5px;
+}
+
+.articleBottom ul li a {
+	font-variant:small-caps;
+	color:#666;
+	font-weight:bold;
+	text-decoration:none;
+	position:relative;
+	top:-5px;
+}
+
+.articleBottom ul li a:hover {
+	text-decoration: underline;
+	background-color: #ccc;
+}
+
+.articleBottom h2{
+	margin-bottom: 10px;
+}
+
+/*ARTICLE RIGHT*/
+
+.articleRight {
+	float:right;
+	width :350px;
+}
+
+.articleRight .news {
+	overflow: hidden;
+	border-bottom: 2px solid #ccc;
+	padding: 15px 0; 
+
+}
+
+.articleRight img{
+	width:15%;
+	float:left;
+	padding: 5px 10px;
+}
+
+.articleRight .newsTop{
+	float:right;
+
+}
+
+/*FOOTER8*/
+
+footer{
+	background-color: #333;
+	color: #fff;
+	height: 60px;
+	margin:50px 0 20px 0;
+	line-height: 25px;
+	padding-left: 25px;
+	border-radius: 0px 0px 15px 15px;
+}
+
+footer p {
+	font-size: 11px;
+	height: 60px;
+	padding: 25px 0;
+}
+
+
+/*GENERAL CLASSES*/
+
+p {
+	font-size:13px;
+	line-height:15px;
+	margin-bottom:10px;
+}
+.button{
+	position:relative;
+	top: 1px;
+	padding: 2px;
+	width:50px;
+}
+
+#gallery {margin:0 auto 0 auto; overflow: hidden;}
+#gallery ul {list-style: none;}
+#gallery li {float: left;}
+#gallery img {width: 160px; height: 120px; padding: 5px; border: solid 1px #ccc; margin:5px;}
+#gallery a:hover img {border: 1px solid #fff; background-color: #fff;}
+.galleryh2 {margin:0 0 15px 5px;}
